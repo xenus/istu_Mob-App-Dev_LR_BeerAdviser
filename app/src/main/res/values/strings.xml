@@ -3,9 +3,52 @@
     <string name="find_beer">Find Beer</string>
     <string name="beer_types">Beer types</string>
     <string-array name="beer_colors">
-        <item>Light</item>
-        <item>Amber</item>
+        <item>Pale Straw</item>
+        <item>Straw</item>
+        <item>Pale Gold</item>
+        <item>Deep Gold</item>
+        <item>Pale Amber</item>
+        <item>Medium Amber</item>
+        <item>Deep Amber</item>
+        <item>Amber Brown</item>
         <item>Brown</item>
-        <item>Dark</item>
+        <item>Ruby Brown</item>
+        <item>Deep Brown</item>
+        <item>Black</item>
     </string-array>
+    <array name="beer_detail">
+        <item>@array/beer_colors</item>
+        <item>@array/BitMap_pos_x</item>
+        <item>@array/BitMap_pos_y</item>
+    </array>
+    <string-array name="BitMap_pos_x">  <!-- x -->
+        <item>35</item>
+        <item>194</item>
+        <item>353</item>
+        <item>512</item>
+        <item>671</item>
+        <item>830</item>
+        <item>35</item>
+        <item>194</item>
+        <item>353</item>
+        <item>512</item>
+        <item>671</item>
+        <item>830</item>
+    </string-array>
+    <string-array name="BitMap_pos_y">  <!-- y -->
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>7</item>
+        <item>494</item>
+        <item>494</item>
+        <item>494</item>
+        <item>494</item>
+        <item>494</item>
+        <item>494</item>
+    </string-array>
+    <integer name="BitMap_pos_w">157</integer>
+    <integer name="BitMap_pos_h">490</integer>
 </resources>
